@@ -14,8 +14,8 @@ const Carousel = (props) => {
         buttonsDisabled={true}
         dotsDisabled={true}
         autoPlay={true}
-        duration={2000}
-        autoPlayInterval={2000}
+        duration={3000}
+        autoPlayInterval={5000}
         items={imageList}
         mouseTrackingEnabled={true}
       />

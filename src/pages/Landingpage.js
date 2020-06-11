@@ -35,11 +35,15 @@ const LandingPage = ({
             <TrendingList data={trendingSearchData} />
           </aside>
           <section>
-            <MovieGallery
-              data={recommendedMovies}
-              title={"Recommended Movies"}
-            />
-            <MovieGallery data={movies} title={"All Movies"} />
+            <div className="recommended-movies-container">
+              <MovieGallery
+                data={recommendedMovies}
+                title={"Recommended Movies"}
+              />
+            </div>
+            <div className="all-movies-container">
+              <MovieGallery data={movies} title={"All Movies"} />
+            </div>
           </section>
         </main>
       </>

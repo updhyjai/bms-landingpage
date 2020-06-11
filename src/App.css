@@ -27,7 +27,10 @@ code {
   max-width: 80vw !important;
   margin: 5vh auto !important;
 }
-
+.all-movies-container,
+.recommended-movies-container {
+  margin-block-end: 5vh;
+}
 @media screen and (max-width: 1024px) {
   .navbar-container > div,
   .appbar {

@@ -24,16 +24,16 @@ img.movie-gallery-image {
 }
 
 @media screen and (max-width: 1024px) {
-  .alice-carousel {
-    width: 72vw !important;
+  .movie-gallery-container .alice-carousel {
+    width: 66vw !important;
   }
   img.movie-gallery-image {
-    width: 23vw !important;
+    width: 21vw !important;
     border-radius: 10px;
   }
 
   li.alice-carousel__stage-item {
-    width: 24vw !important;
+    width: 22vw !important;
   }
 }
 
@@ -42,10 +42,10 @@ img.movie-gallery-image {
     width: 29vw !important;
     border-radius: 10px;
   }
-  .alice-carousel {
+  .movie-gallery-container .alice-carousel {
     width: 90vw !important;
   }
-  li.alice-carousel__stage-item {
+  .movie-gallery-container li.alice-carousel__stage-item {
     width: 30vw !important;
   }
 }
@@ -54,10 +54,10 @@ img.movie-gallery-image {
     width: 44vw !important;
     border-radius: 10px;
   }
-  .alice-carousel {
+  .movie-gallery-container .alice-carousel {
     width: 90vw !important;
   }
-  li.alice-carousel__stage-item {
+  .movie-gallery-container li.alice-carousel__stage-item {
     width: 45vw !important;
   }
 }
