@@ -1,0 +1,71 @@
+.appbar-container {
+  background-color: #333644 !important;
+  padding: 0 !important;
+}
+.app-logo {
+  width: 7vw;
+}
+
+.appbar-link-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px !important;
+}
+.appbar-link-container a {
+  color: #cccccc !important;
+}
+.user-avatar {
+  width: 25px;
+}
+.appbar-left-action-container,
+.appbar-right-action-container {
+  display: flex;
+}
+.appbar-user-info-container {
+  display: flex;
+  align-items: center;
+}
+.user-greet {
+  color: whitesmoke;
+  font-size: smaller;
+  margin: 0 0 0 1vw;
+  padding: 0px;
+}
+.nav-link {
+  font-size: smaller;
+}
+.search-input {
+  width: 30vw !important;
+  font-size: 0.8rem !important;
+  padding: 0.25rem !important;
+}
+.nav-item {
+  padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .appbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .appbar-left-action-container {
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+  }
+  .appbar-right-action-container {
+    display: flex;
+    justify-content: flex-end;
+    width: -webkit-fill-available;
+  }
+  .app-logo {
+    width: 15vw;
+  }
+  .search-input {
+    width: 60vw !important;
+    font-size: 0.8rem !important;
+    padding: 0.25rem !important;
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,19 @@
+.navbar-container {
+  background-color: #202532 !important;
+  padding: 0 auto !important;
+}
+.navlink-container {
+  justify-content: space-between !important;
+}
+.main-nav > a {
+  color: #cccccc !important;
+  font-size: small !important;
+  margin-right: 0.25rem !important;
+}
+.side-nav > a {
+  color: #909299 !important;
+  font-size: x-small !important;
+}
+.navbar-toggler {
+  color: #cccccc;
+}

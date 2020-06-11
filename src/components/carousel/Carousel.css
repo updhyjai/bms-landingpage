@@ -1,0 +1,23 @@
+.carousel-container {
+  background-color: white;
+}
+
+.carousel-container li.alice-carousel__stage-item {
+  width: 50vw !important;
+  padding: 10px 0px !important;
+  text-align: center;
+}
+.carousel-image {
+  width: 49vw !important;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 525px) {
+  .carousel-container li.alice-carousel__stage-item {
+    width: 100vw !important;
+  }
+  .carousel-image {
+    width: 90vw !important;
+    border-radius: 10px;
+  }
+}

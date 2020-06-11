@@ -1,0 +1,47 @@
+.trending-list-container {
+  width: 18vw !important;
+}
+
+.list-item-search {
+  font-size: 0.8rem;
+}
+
+.list-item-type {
+  font-size: 0.7rem;
+  padding: 0;
+  margin: 0;
+  color: gray;
+}
+.trending-list-title {
+  margin-bottom: 1.7vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .trending-list-container {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .trending-list-container {
+    width: 90vw !important;
+    margin: 0 auto !important;
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* @media screen and (max-width: 325px) {
+  img.movie-gallery-image {
+    width: 44vw !important;
+    border-radius: 10px;
+  }
+  .alice-carousel {
+    width: 90vw !important;
+  }
+  li.alice-carousel__stage-item {
+    width: 45vw !important;
+  }
+} */
